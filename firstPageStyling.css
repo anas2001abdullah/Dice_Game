@@ -6,7 +6,7 @@ h1 {
   margin: 2vw;
   font-family: "Lobster", cursive;
   text-shadow: 5px 0 #232931;
-  font-size: 4vw;
+  font-size: 5.3vw;
   color: #4ecca3;
 }
 .container {
@@ -25,19 +25,19 @@ input[type="text"] {
   border: 2px solid #22604b;
   border-radius: 5px;
   font-family: "Khand", sans-serif;
-  font-size: 1.5vw;
+  font-size: 2vw;
   outline: none;
 }
 label {
   color: rgb(200, 155, 73);
-  font-size: 2.5vw;
+  font-size: 3vw;
   font-family: "Sigmar", cursive;
 }
 
 #btn {
   margin: 7% auto;
-  width: 10vw;
-  height: 4vw;
+  width: 12vw;
+  height: 5vw;
   border: 2px solid #2b735b;
   border-radius: 5px;
   background-color: #195c4e;
@@ -47,7 +47,7 @@ label {
   position: relative;
   font-family: "Lobster", cursive;
   text-shadow: 5px 0 #185347;
-  font-size: 2vw;
+  font-size: 3vw;
   font-weight: 1000;
 }
 

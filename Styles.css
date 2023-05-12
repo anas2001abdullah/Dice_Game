@@ -18,15 +18,16 @@ body {
 }
 
 h1 {
-  margin: 2.5vw;
+  margin: 1vw;
   font-family: 'Lobster', cursive;
   text-shadow: 5px 0 #232931;
-  font-size: 7vw;
+  font-size: 8vw;
   color: #4ECCA3;
 }
 
 p {
   font-size: 3.5vw;
+  margin-top: 3vw;
   margin-bottom: 0.5vw;
   color: #4ECCA3;
   font-family: 'Indie Flower', cursive;
@@ -38,17 +39,18 @@ img {
 
 footer {
   margin-top: 2%;
-  margin-right: 10%;
+  margin-right: 20vw;
   margin-bottom: 30px;
   color: #EEEEEE;
   text-align: right;
   font-family: 'Indie Flower', cursive;
+  font-size: 1.5vw;
 
 }
 #btn {
-  margin-top: 5%;
-  width: 15vw;
-  height: 3.5vw;
+  margin-top: 3%;
+  width: 17vw;
+  height: 5vw;
   border: 2px solid #2b735b;
   border-radius: 5px;
   background-color: #195c4e;
@@ -58,7 +60,7 @@ footer {
   position: relative;
   font-family: "Lobster", cursive;
   text-shadow: 5px 0 #185347;
-  font-size: 2vw;
+  font-size: 3vw;
   font-weight: 1000;
 }
 

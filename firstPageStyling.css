@@ -3,10 +3,10 @@ body {
 }
 
 h1 {
-  margin: 30px;
+  margin: 2rem;
   font-family: "Lobster", cursive;
   text-shadow: 5px 0 #232931;
-  font-size: 4rem;
+  font-size: 6vw;
   color: #4ecca3;
 }
 .container {

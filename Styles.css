@@ -10,20 +10,24 @@
 
 }
 
+.left{
+  margin-right: 3vw;
+}
 body {
   background-color: #393E46;
 }
 
 h1 {
-  margin: 30px;
+  margin: 2vw;
   font-family: 'Lobster', cursive;
   text-shadow: 5px 0 #232931;
-  font-size: 8rem;
+  font-size: 7vw;
   color: #4ECCA3;
 }
 
 p {
-  font-size: 2rem;
+  font-size: 3vw;
+  margin-bottom: 0.5vw;
   color: #4ECCA3;
   font-family: 'Indie Flower', cursive;
 }

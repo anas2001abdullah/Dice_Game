@@ -19,8 +19,8 @@ if(ranNum > ranNum2) {
     document.querySelector('h1').innerHTML = "🚩 " + name1 + " wins!";
 }
 else if(ranNum < ranNum2) {
-    document.querySelector('h1').innerHTML = name2 + " wins!🚩";
+    document.querySelector('h1').innerHTML = name2 + " wins! 🚩";
 }
 else {
-    document.querySelector('h1').innerHTML = "Draw!🫱🏻‍🫲🏻 "
+    document.querySelector('h1').innerHTML = "Draw! 🫱🏻‍🫲🏻 "
 }

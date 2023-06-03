@@ -1,35 +1,22 @@
-.container {
-  width: 70%;
-  margin: auto;
-  text-align: center;
-}
-
-.dice {
-  text-align: center;
-  display: inline-block;
-
-}
-
-.left{
-  margin-right: 3vw;
-}
 body {
-  background-color: #393E46;
+  background-color: #393e46;
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
 }
 
 h1 {
-  margin: 2vw;
-  font-family: 'Lobster', cursive;
+  margin: 30px 0px;
+  font-family: "Lobster", cursive;
   text-shadow: 5px 0 #232931;
-  font-size: 7vw;
-  color: #4ECCA3;
+  font-size: 7rem;
+  color: #4ecca3;
 }
 
 p {
-  font-size: 3vw;
-  margin-bottom: 0.5vw;
-  color: #4ECCA3;
-  font-family: 'Indie Flower', cursive;
+  font-size: 2rem;
+  color: #4ecca3;
+  font-family: "Indie Flower", cursive;
 }
 
 img {
@@ -39,11 +26,18 @@ img {
 footer {
   margin-top: 2%;
   margin-right: 10%;
-  margin-bottom: 30px;
-  color: #EEEEEE;
+ 
+  color: #eeeeee;
   text-align: right;
-  font-family: 'Indie Flower', cursive;
+  font-family: "Indie Flower", cursive;
+}
 
+.dice {
+  text-align: center;
+  display: inline-block;
+}
+.nofont {
+  font-family: Arial, Helvetica, sans-serif;
 }
 #btn {
   margin-top: 5%;
@@ -53,7 +47,7 @@ footer {
   border-radius: 5px;
   background-color: #195c4e;
   box-shadow: 0px 3px 0px #074e3f;
-  color:#e1e1e1;
+  color: #e1e1e1;
   cursor: pointer;
   position: relative;
   font-family: "Lobster", cursive;
@@ -67,4 +61,25 @@ footer {
   color: #0d3b2d;
   box-shadow: none !important;
   text-shadow: none !important;
+}
+@media screen and (max-width: 640px) {
+  h1 {
+    font-size: 50px;
+  }
+  p {
+    font-size: 20px;
+  }
+
+  #btn {
+    margin-top: 15%;
+    width: 30%;
+    height: 10%;
+    font-size: 20px;
+  }
+  img {
+    width: 80%;
+  }
+  .dice{
+    width: 40%;
+  }
 }

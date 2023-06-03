@@ -24,7 +24,9 @@ h1 {
 footer {
   color: #eeeeee;
   font-size: larger;
-  font-family: "Indie Flower", cursive;
+  font-family: "Arvo", cursive;
+  margin-top: 60px;
+
 }
 
 .joey {
@@ -70,19 +72,7 @@ footer {
   margin: 15% auto 5%;
 }
 
-.game-over {
-  background-color: red;
-  opacity: 0.8;
-}
 
-.pressed {
-  box-shadow: 0 3px 4px 0 #dbedf3;
-  opacity: 0.5;
-}
-
-.red {
-  color: red;
-}
 
 .drum {
   outline: none;
@@ -91,8 +81,8 @@ footer {
   font-family: "Arvo", cursive;
   line-height: 2;
   font-weight: 900;
-  color: #da0463;
-  text-shadow: 3px 0 #dbedf3;
+  color: #b95a85;
+  text-shadow: 3px 0 #323030;
   border-radius: 15px;
   display: inline-block;
   width: 150px;
@@ -107,4 +97,18 @@ footer {
   color: white;
   box-shadow: none !important;
   text-shadow: none !important;
+}
+
+@media screen and (max-width: 640px){
+  .joey{
+    display: none;
+  }
+  h1{
+    font-size: 40px;
+  }
+  .drum{
+    font-size: 40px;
+    width: 25%;
+    height: 100px;
+  }
 }

@@ -1,85 +1,114 @@
 body {
-  background-color: #393e46;
   text-align: center;
-  padding: 0px;
-  margin: 0px;
+  background-color: #283149;
 }
 
 h1 {
-  margin: 30px 0px;
-  font-family: "Lobster", cursive;
-  text-shadow: 5px 0 #232931;
-  font-size: 7rem;
-  color: #4ecca3;
-}
-
-p {
-  font-size: 2rem;
-  color: #4ecca3;
-  font-family: "Indie Flower", cursive;
-}
-
-img {
-  width: 80%;
-}
-
-footer {
-  margin-top: 2%;
-  margin-right: 10%;
+  font-size: 5rem;
+  color: #dbedf3;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #da0463;
  
+}
+.joey {
+  overflow: hidden;
+}
+
+.joey {
+  transition: transform 0.3s ease;
+}
+
+.joey:hover  {
+  transform: scale(1.2);
+}
+footer {
   color: #eeeeee;
-  text-align: right;
-  font-family: "Indie Flower", cursive;
+  font-size: larger;
+  font-family: "Arvo", cursive;
+  margin-top: 60px;
+
 }
 
-.dice {
-  text-align: center;
+.joey {
+ 
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  width: 14%;
+  border-radius: 5%;
+  
+  
+}
+
+.w {
+  background-image: url("images/tom1.png");
+}
+
+.a {
+  background-image: url("images/tom2.png");
+}
+
+.s {
+  background-image: url("images/tom3.png");
+}
+
+.d {
+  background-image: url("images/tom4.png");
+}
+
+.j {
+  background-image: url("images/snare.png");
+}
+
+.k {
+  background-image: url("images/crash.png");
+}
+
+.l {
+  background-image: url("images/kick.png");
+}
+
+.set {
+  margin: 15% auto 5%;
+}
+
+
+
+.drum {
+  outline: none;
+  border: 10px solid #404b69;
+  font-size: 5rem;
+  font-family: "Arvo", cursive;
+  line-height: 2;
+  font-weight: 900;
+  color: #b95a85;
+  text-shadow: 3px 0 #323030;
+  border-radius: 15px;
   display: inline-block;
-}
-.nofont {
-  font-family: Arial, Helvetica, sans-serif;
-}
-#btn {
-  margin-top: 5%;
   width: 150px;
-  height: 50px;
-  border: 2px solid #2b735b;
-  border-radius: 5px;
-  background-color: #195c4e;
-  box-shadow: 0px 3px 0px #074e3f;
-  color: #e1e1e1;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
   cursor: pointer;
-  position: relative;
-  font-family: "Lobster", cursive;
-  text-shadow: 5px 0 #185347;
-  font-size: 30px;
-  font-weight: 1000;
 }
-
-#btn:hover {
-  background-color: #4ecca3;
-  color: #0d3b2d;
+.drum:hover {
+  background-color: #da0463;
+  color: white;
   box-shadow: none !important;
   text-shadow: none !important;
 }
-@media screen and (max-width: 640px) {
-  h1 {
-    font-size: 50px;
-  }
-  p {
-    font-size: 20px;
-  }
 
-  #btn {
-    margin-top: 15%;
-    width: 30%;
-    height: 10%;
-    font-size: 20px;
+@media screen and (max-width: 640px){
+  .joey{
+    display: none;
   }
-  img {
-    width: 80%;
+  h1{
+    font-size: 40px;
   }
-  .dice{
-    width: 40%;
+  .drum{
+    font-size: 40px;
+    width: 25%;
+    height: 100px;
   }
 }
